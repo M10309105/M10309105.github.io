@@ -1363,6 +1363,22 @@
 				}
 
 			}
+		
+		#main .pagecontent {
+			width: 90%;
+			max-width: 80em;
+			margin: 0 auto;
+			background-color: #ffffff;
+			color: #000000;
+			padding: 5em 5em 5em;
+		}
+			@media screen and (max-width: 480px) {
+
+				#main .pagecontent {
+					width: 95%;
+				}
+
+			}
 
 /* Footer */
 
